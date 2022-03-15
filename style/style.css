@@ -1,0 +1,137 @@
+:root {
+    --vermelho: red;
+    --preto: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+      
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.863),rgba(153, 0, 0, 0.658)100%) ,url(//www.godisageek.com/wp-content/uploads/Young-Souls-Review.jpg);
+    background-size: contain;
+}
+
+
+
+
+
+header .container {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+header .logo:hover {
+    cursor: pointer;
+}
+
+header nav a {   
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.637);
+    margin-right: 10px;
+}
+
+header i {
+    scale: 150%;
+    margin-right: 40px;
+}
+
+header i:hover {
+    cursor: pointer;
+}
+
+
+header nav a:hover {
+    color: white;
+}
+
+/*filme principal*/
+.filme-principal {
+    
+    margin-top: 10%;
+    
+    font-size:16px;  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+
+    line-height: 35px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+    text-align: left;
+
+}
+
+.titulo {
+    font-size: 60px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.botao {
+    background-color: rgb(65, 65, 65);
+    border:none;
+    border-radius: 5px ;
+    color: white;
+
+    padding: 15px 30px;
+    margin-left: 40px;
+    margin-right: -20px;
+    font-size: 17px;
+
+    margin-bottom: 10%;
+
+    transition: 0.6s;
+}
+
+.botao:hover {
+    background-color: white;
+
+    cursor: pointer;
+}
+
+.botao i {
+    margin-right: 10px;
+    scale: 150%;
+}
+
+.carrosel-filmes {
+    background-color: rgb(0, 0, 0);
+}
+
+.box-filme {
+    margin-top: 3%;
+    margin-left: 1%;
+    
+    height: 100%;
+    width: 100%;
+    
+    scale: 80%;
+    display: block;
+
+}
