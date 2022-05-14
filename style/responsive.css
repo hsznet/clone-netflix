@@ -3,8 +3,6 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-        background: linear-gradient(rgba(0, 0, 0, 0.863),rgba(153, 0, 0, 0.658)100%) ,url(//www.godisageek.com/wp-content/uploads/Young-Souls-Review.jpg);
-        background-size: cover;
     }
     
     header .container{
@@ -22,27 +20,38 @@
     }
 
     .titulo {
-        margin-top: -17%;
-        margin-left: 30%;
-        margin-bottom: 6%;
+        margin-top: -4%;
+        margin-left: 4%;
+        margin-bottom: 2%;
     }
 
-    .descricao {
-        text-align: justify;
+    h3.titulo {
+        font-size: 30px;
     }
 
+    .filme-principal .descricao {
+        /* text-align: justify; */
+        font-size: 14px;
+    }
 
 
     .botao {
-        margin-top: 5%;
-    }
+        
+    font-size: 12px;}
 
+}
+
+@media screen and (max-width:1223px) {
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.863),rgba(153, 0, 0, 0.658)100%) ,url(https://www.godisageek.com/wp-content/uploads/Young-Souls-Review.jpg);
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width: 1000px){
     
     .descricao {
-        width: 50%;
+        width: 90%;
     }
 }
 
