@@ -1,6 +1,6 @@
 :root {
     --vermelho: red;
-    --preto: black;
+    --preto: #ff0707;
 }
 
 * {
@@ -14,7 +14,7 @@ body {
       
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.863),rgba(153, 0, 0, 0.658)100%) ,url(//www.godisageek.com/wp-content/uploads/Young-Souls-Review.jpg);
+    background: linear-gradient(rgb(0 0 0 / 86%),rgba(153, 0, 0, 0.658)100%) ,url(https://www.godisageek.com/wp-content/uploads/Young-Souls-Review.jpg);
     background-size: contain;
 }
 

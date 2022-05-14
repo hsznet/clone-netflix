@@ -7,7 +7,10 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         600:{
-            items:3
+            items:3,
+            margin: 50,
+            stagePadding: 100,
+            merge: false
         },
         1000:{
             items:5
